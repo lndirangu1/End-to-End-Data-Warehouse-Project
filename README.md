@@ -20,6 +20,8 @@ The project focuses on building enterprise-style ETL pipelines with incremental 
 ---
 
 # Architecture
+<img width="1170" height="483" alt="image" src="https://github.com/user-attachments/assets/400d6834-4d06-4fef-be2b-8e70cf8ef589" />
+
 
 ## Bronze Layer
 
@@ -154,6 +156,9 @@ Data validation was performed throughout the pipeline to ensure data integrity a
 * Data consistency checks
 
 # Pipeline Orchestration
+<img width="4400" height="920" alt="image" src="https://github.com/user-attachments/assets/0066237b-c62c-42f1-8628-9fc6ec129718" />
+
+
 * Implemented workflow orchestration to coordinate Bronze, Silver, and Gold layer execution
 * Added dependency handling to ensure proper execution order
 * Integrated data quality validation tasks before Gold layer processing
